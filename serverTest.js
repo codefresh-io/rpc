@@ -25,7 +25,7 @@ setTimeout(function(){
 	var server;
 
 	var method1 = function(x, y){
-		server.pause();
+		//server.pause();
 		return Q.resolve(x + y);
 	};
 
@@ -36,7 +36,7 @@ setTimeout(function(){
 		}
 	};
 
-	RpcServer.create("micro1", "1", routes, config);
+	RpcServer.create("micro1", "1", "codefresh", routes, config);
 	
 	server = RpcServer.get("micro1");
 

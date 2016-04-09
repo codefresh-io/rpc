@@ -25,7 +25,7 @@ setTimeout(function () {
 	RpcClient.create("micro1", {}, config);
 	var client = RpcClient.get("micro1");
 
-	client("method1", [1, 2])
+	client("method1", [1, 2], {account: "codefresh", serviceId: "1"})
 		.then(function (res) {
 			console.log(JSON.stringify(res));
 		}, function (err) {
