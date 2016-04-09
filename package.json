@@ -1,24 +1,24 @@
 {
-  "name": "cf-queue",
-  "version": "0.0.26",
-  "description": "Queue wrapper for nats.io",
+  "name": "rpc",
+  "version": "0.0.1",
+  "description": "RPC micro service oriented Client/Server ",
   "main": "index.js",
   "scripts": {
     "test": "mocha test/multi-workers.js"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/codefresh/queue.git"
+    "url": "https://github.com/codefresh/rpc.git"
   },
   "keywords": [
     "NATS"
   ],
-  "author": "Guy Balteriski",
+  "author": "Itai Gendler",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/codefresh/queue/issues"
+    "url": "https://github.com/codefresh-io/rpc/issues"
   },
-  "homepage": "https://github.com/codefresh/queue",
+  "homepage": "https://github.com/codefresh/rpc",
   "dependencies": {
     "cf-errors": "git+https://github.com/codefresh-io/cf-errors.git#7e4d60cc0794482d5af4e66dcb753d456379f525",
     "cf-queue": "git+https://github.com/codefresh-io/cf-queue.git#58c4f3f5942e480826167d3199ff37ae5370757b",

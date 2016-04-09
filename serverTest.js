@@ -25,10 +25,8 @@ setTimeout(function(){
 	var server;
 
 	var method1 = function(x, y){
-		//server.pause();
-		setTimeout(function(){
-			return Q.resolve(x + y);
-		}, 10000);
+		server.pause();
+		return Q.resolve(x + y);
 	};
 
 	var routes = {
