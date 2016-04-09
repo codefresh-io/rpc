@@ -11,6 +11,7 @@ var options = {
   ]
 };
 
+
 var queue = new Queue('queue-name', options);
 ```
 
