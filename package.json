@@ -1,6 +1,6 @@
 {
   "name": "rpc",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "RPC micro service oriented Client/Server ",
   "main": "index.js",
   "scripts": {
@@ -21,7 +21,7 @@
   "homepage": "https://github.com/codefresh/rpc",
   "dependencies": {
     "cf-errors": "git+https://github.com/codefresh-io/cf-errors.git#7e4d60cc0794482d5af4e66dcb753d456379f525",
-    "cf-queue": "git+https://github.com/codefresh-io/cf-queue.git#58c4f3f5942e480826167d3199ff37ae5370757b",
+    "cf-queue": "git+https://github.com/codefresh-io/cf-queue.git#rpc_poc",
     "lodash": "^4.8.2",
     "mocha": "^2.2.4",
     "nats": "^0.2.9",
