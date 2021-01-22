@@ -24,7 +24,7 @@
     "cf-queue": "git+https://github.com/codefresh-io/cf-queue.git#rpc_poc",
     "lodash": "^4.8.2",
     "mocha": "^2.2.4",
-    "nats": "^0.2.9",
+    "nats": "^0.8.10",
     "q": "^1.3.0",
     "uuid": "^2.0.1"
   }
