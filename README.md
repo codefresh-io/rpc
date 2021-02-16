@@ -15,7 +15,7 @@ var options = {
 var queue = new Queue('queue-name', options);
 ```
 
-The same initalization code is used by the clien and worker sides.
+The same initialization code is used by the client and worker sides.
 
 ## How to use it
 
